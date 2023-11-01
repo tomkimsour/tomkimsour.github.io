@@ -1,0 +1,67 @@
+@font-face {
+  font-family: NeueMontreal-Regular;
+  src: url("/fonts/PPNeueMontreal-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: NeueMontreal-Medium;
+  src: url("/fonts/PPNeueMontreal-Medium.otf") format("opentype");
+}
+
+h1 {
+  font-size: 32pt;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  font-size: 18pt;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 16pt;
+}
+
+p {
+  font-size: 10pt;
+}
+
+/* a {
+  font-size: 10pt;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  letter-spacing: 0pt;
+  font-size: 14px;
+  font-family:
+    "NeueMontreal-Regular",
+    Inter,
+    system-ui,
+    -apple-system, /*Firefox supports this but not yet `system-ui`*/
+    'Segoe UI', 
+    Helvetica,
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji';
+}
+
+.cyan-text{
+  color : #67AAED;
+}
+.cyan-text{
+  font-family: NeueMontreal-Medium;
+}
+
+.grey-text{
+  color: #959595;
+}
